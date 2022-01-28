@@ -1,5 +1,5 @@
 export const API = () => {
-  const baseUrl = "http://localhost:5000/api/v1";
+  const baseUrl = "https://restapi-dumbmerch.herokuapp.com/";
 
   const executeAPI = async (endpoint, config) => {
     const response = await fetch(baseUrl + endpoint, config);
